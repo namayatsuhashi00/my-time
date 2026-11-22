@@ -1,1 +1,44 @@
-/build
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+*.jar
+*.war
+*.ear
+
+# Files for the Artifactory Plugin
+*artifactoryPlugin.log
+
+# Gradle files
+.gradle/
+build/
+*/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/vcs.xml
+*.iml
+*.ipr
+*.iws
+
+# Keystore / Signing secrets
+*.jks
+*.keystore
+keystore.properties
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment / Secrets
+.env
+.env.*
