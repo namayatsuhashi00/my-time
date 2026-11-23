@@ -51,4 +51,9 @@ class MainViewModel(
     fun clearErrorMessage() {
         _uiState.value = _uiState.value.copy(errorMessage = null)
     }
+    fun saveAlarm(alarm: Alarm) {
+        viewModelScope.launch {
+            saveAlarmUseCase(alarm)
+        }
+    }
 }
